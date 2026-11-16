@@ -15,9 +15,9 @@ public class DeskFan extends AbstractFan{
 
     @Override
     public void displayFanCategory() {
-        System.out.println("Kategori: ");
+        System.out.println("Kategori: Kipas Meja");
         System.out.println("Merk: " + getBrand());
-        System.out.println("Ukuran: " + getSize() + "");
+        System.out.println("Ukuran: " + getSize() + " cm");
         System.out.println("Spek Dinamo: " + getDynamo().getDynamoType() + " " + getDynamo().getPowerWattage() + "W");
         System.out.println("Fitur Swing: " + (canSwing ? "Bisa noleh kiri kanan" : "Diam"));
     }
